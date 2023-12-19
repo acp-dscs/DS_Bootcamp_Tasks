@@ -1,0 +1,25 @@
+Task 3 Pseudo Code File
+
+Task 3.1 Control Structures file age-quiz.py
+
+Start
+1. If the user is 40 or over, output the message "You're over the hill."
+2. Write code to take in a user’s age and store it in an integer variable called age.
+3. Assume that the oldest someone can be is 100; if the user enters a higher number, output the message "Sorry, you're dead.".
+4. If the user is 65 or older, output the message "Enjoy your retirement!"
+5. If the user is under 13, output the message "You qualify for the kiddie discount."
+6. If the user is 21, output the message "Congrats on your 21st!"
+7. For any other age, output the message "Age is but a number." 
+
+Logical order to meet:
+
+0 to 12		    # If the user < 13,                 "You qualify for the kiddie discount."
+13 to 39	    # For any other age,                "Age is but a number." NOT INCLUDING 21
+21 ONLY	        # If the user == 21,                "Congrats on your 21st!"
+40 to 64	    # If user is >= 40,                 "You're over the hill."
+65 to 100	    # If the user is >= 65,             "Enjoy your retirement!"
+100 to infinity	# Oldest someone can be is > 100,   "Sorry, you're dead."
+
+End
+
+"""

@@ -1,0 +1,65 @@
+Task 2 Pseudo Code File
+
+The String and Numerical Data Types
+
+Task 2.1 replace.py
+
+Start
+1. Save the sentence: "The!quick!brown!fox!jumps!over!the!lazy!dog." as a single string.
+2. Use replace() function to replace every "!" with " ".
+3. Reprint the sentence as "The quick brown fox jumps over the lazy dog."
+4. Use the upper() function to capitalise every letter.
+5. Reprint the sentence as "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG."
+6. Print the sentence in reverse.
+End
+
+
+
+Task 2.2 file manipulation.py
+
+Start
+1. Request user to enter a sentence. Save the user’s response in a variable called str_manip.
+2. Calculate and display the length of str_manip.
+3. Find the last letter in user sentence. Replace every occurrence of this letter with ‘@’.
+4. Print the last 3 characters in str_manip backwards.
+5. Create a five-letter word that is made up of the first three and the last two letters in sentence user provided.
+End
+
+
+
+Task 2.3 file numbers.py
+
+Start
+1. Request the user to enter three different integers.
+2. Then print out: The sum of all the numbers
+3. Then print out: The first number minus the second number
+4. Then print out: The third number multiplied by the first number
+5. Then print out: The sum of all three numbers divided by the third number
+End
+
+
+
+Task 2 Pseudo Code Challenges Additional Exercises
+
+Task 2.1.Challenge file challenge_1.py
+
+Start
+1. Import math module to allow for more advance maths. In this case square root.
+2. Request the user to enter the lengths of all three sides of a triangle.
+3. Calculate the area of the triangle.
+4. Print out the area of the triangle.
+End
+
+
+
+Task 2.2.Challenge file challenge_2.py
+
+Start
+1. Request the name of a user's favourite restaurant
+2. Store the user's favourite restaurant in a variable called string_fav
+3. Request the user's favourite number
+4. Use casting to store it in an integer variable called int_fav
+5. Print out both of these using two separate print statements 
+6. Once this is working, try to cast string_fav to an integer
+7. What happens? Add a comment in your code to explain why this is.
+End

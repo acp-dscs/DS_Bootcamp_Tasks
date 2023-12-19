@@ -1,0 +1,17 @@
+Task 4 Pseudo Code File
+
+Task 4.1 Logical Programming - Operators file award.py
+
+Start
+1. Determine the award triathlete will receive.
+2. Read times (in minutes) for all three events: swimming, cycling, and running.
+3. Calculate and print the total time taken to complete the triathlon.
+4. Award: Ranked by total time taken to complete triathlon.
+5. The qualifying time for awards is 100 minutes.
+6. Qualifying time range.                           0 - 100 minutes.    Award == Provincial Colours.
+7. Qualifying time range 100 + >=1 and <=5 minutes. 101 - 105 minutes.  Award == Provincial Half Colours.
+8. Qualifying time range 100 + >=6 and <=10.        106 - 110 minutes.  Award == Provincial Scroll. 
+9. Qualifying time range 100 + >=11.                111+ minutes.       Award == No award.
+End
+
+"""
