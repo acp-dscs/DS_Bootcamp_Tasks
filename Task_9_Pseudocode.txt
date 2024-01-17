@@ -1,0 +1,74 @@
+"""
+Task 9 Pseudocode File
+
+Task 9.1.1 Defensive Programming - Error Handling (errors.py)
+
+Start
+1. Attempt to run the program. You will encounter various errors.
+   a. Fix the errors and then run the program.
+   b. Each time you fix an error, add a # comment in the line where you fixed.
+   c. Indicate which of the three types of errors it was with a brief explanation of why that is.
+   d. Save the corrected file, with comments.
+2. Error fixes list (Syntax, Runtime and Logical errors):
+   # Fixed: SyntaxError: Added the missing parentheses in 'print' statement and (WhitespaceError) removed unexpected space after 'print'.
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'print'.                                                                                   
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'age_Str'. AND SyntaxError: Changed '==' to '=' Operator fixed to assign a value to a variable correctly.
+   # Fixed: RuntimeError: (ValueError) Changed string "24 years old" to "24" line above. (initial value "24 years old" cannot be directly converted to an integer)
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'age'. 
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'print', and (WhitespaceError) add spacing in print statement. AND RuntimeError: (TypeError) added str(age) converting the integer 'age' to a string allowing for string concatenation.
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'years_from_now'.
+   # Fixed: RuntimeError: (TypeError) Changed "3" to 3 integer line above. (Resolving the potential TypeError when performing numerical operations or assignments that expect integer types)
+   # Fixed: SyntaxError: (IndentationError) Removed the unexpected indent before 'total_years'.
+   # Fixed: SyntaxError: Added the missing parentheses in 'print' statement, and (WhitespaceError) removed unexpected space after 'print'. 
+   # Fixed: RuntimeError: (NameError) Attempt to use an undefined variable "answer_years". Change "answer_years" to str(age + years_from_now) to now use the correct variables.
+   # AND Fixed: LogicalError: Change "answer_years" to str(age + years_from_now) the undefined variable was incorrectly used and now the correct variables are being used.
+   # Fixed: RuntimeError: (NameError) Changed 'total' to 'total_years'. 
+   # Fixed: SyntaxError: Added the missing parentheses in 'print' statement and (WhitespaceError) removed unexpected space after 'print'.
+   # AND Fixed: RuntimeError: (TypeError) Changed 'total_months' to str(total_months) converting the variable into a string to ensure it can be concatenated.
+   # Fixed: LogicalError: Concatenation to allow for correct sum of months to include the 6 months. Changed str(total_months) to str(total_months + 6)
+End
+
+Task 9.1.2 Defensive Programming - Error Handling (errors2.py)
+
+Start
+1. Attempt to run the program. You will encounter various errors.
+   a. Fix the errors and then run the program.
+   b. Each time you fix an error, add a # comment in the line where you fixed.
+   c. Indicate which of the three types of errors it was with a brief explanation of why that is.
+   d. Save the corrected file, with comments.
+2. Error fixes list (Syntax, Runtime and Logical errors):
+   # Fixed: RuntimeError: (NameError) Added quotes to Lion, "Lion".
+   # Fixed: SyntaxError: Use f-string format to allow variables in string. 
+   # Fixed: LogicError: swapped variables around to make sense of sentence.
+   # Fixed: SyntaxError: Added the missing parentheses in 'print' statement, and (WhitespaceError) removed unexpected space after 'print'.
+End
+
+Task 9.2 Defensive Programming - Error Handling (logic.py)
+
+Start
+1. Write a program that displays a logical error.
+# Note: when you run this code you will not get a specific 'LogicalError' code, but the calculated average will be incorrect due to the logical error within the code.
+   a. Logical error.
+   b. Comment and explain error.
+2. Find average of the numbers listed. Logical Error: use of incorrect symbol for division formula.
+   a. Logical Error: use of '%' to divide rather than '/' This gives an average of 0 instead of correct average of 20.
+   b. To test change % to / and your average will provide the correct answer of 20.
+End
+
+Task 9.Challenge Defensive Programming - Error Handling (optional_challenge.py)
+
+Start
+1. Write a program with two compilation errors, a runtime error and a logical error.
+   a. Compilation error 1.
+      # SyntaxError: Compilation_1 '1num_list' variable name must not start with a number, remove 1 from start of variable name.
+   b. Compilation error 2.
+      # SyntaxError: Compilation_2 missing parentheses and upper case 'P' in 'print' statement
+   c. Runtime error.
+      # ZeroDivisionError: Runtime error. Integer modulo by zero % (count_num_list - count_num_list) and:
+   d. Logical error.
+   # Note: when you run this code you will not get a specific 'LogicalError' code, but the calculated average will be incorrect due to the logical error within the code.   
+      # Logical Error: use of '%' to divide rather than '/' This gives an average of 0 instead of correct average of 20.
+      Change 'sum_num_list % (count_num_list - count_num_list)' to sum_num_list / count_num_list
+   e. Next to each error, a comment explains what type of error it is and why it occurs.
+End
+"""
