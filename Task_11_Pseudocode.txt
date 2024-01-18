@@ -1,0 +1,15 @@
+"""
+Task 11 Pseudocode File
+Task 11.1 String Handling file (alternative.py)
+
+Start
+1. Write a program that reads in a string:
+   a. Make each alternate character into an upper case character. Use of range and len to index.
+   b. And each other alternate character a lower case character. Use of range and len to index.
+      e.g. The string “Hello World” would become “HeLlO WoRlD”
+2. Then, with the same string: Use of split() and enumerate for indexing starting from 0.
+   Using the split() and join() functions:
+   a. Make each alternative word lower and upper case. Join() words in [list] sentence and include spacing between words.
+      e.g. The string: “I am learning to code” would become “i AM learning TO code”.
+End
+"""
