@@ -1,0 +1,12 @@
+"""
+Task 7 Pseudocode File
+Task 7.1 Control Structures - While Loop file (while.py)
+
+Start
+1. Use a While Loop for repetition structures:
+   a. Continually ask the user to enter a number with error handling for user inputs.
+   b. If the user enters “-1”, stop requesting the user to enter a number (exclude -1 from the count).
+2. Calculate the average of the numbers entered, excluding -1.
+   a. Print the average, ignoring the -1 count and sum.
+End
+"""
