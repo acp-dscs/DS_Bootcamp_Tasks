@@ -1,0 +1,52 @@
+"""
+Task 8 Pseudocode File
+
+Task 8.1.1 Control Structures - For Loop file (pattern.py)
+10-014-2 Control Structures - For Loop (Task from PDF File)
+
+Start
+1. Star symmetry: Output the star pattern shown below, using an (if-else statement with a single For Loop).
+   a. *
+   b. **
+   c. ***
+   d. ****
+   e. *****
+   f. ****
+   g. ***
+   h. **
+   i. *
+2. Method 1: For loop iterates from 0 to 9.
+3. Method 2: For loop iterates from 10 to 1 with a step of -1 (reverse order print).
+End
+
+Task 8.1 Control Structures - For Loop file (numberMayhem.py)
+11-008-1 Control Structures - For Loops (Tasks from PDF File)
+
+Start
+1. Display count down from 20 to 0.
+   a. (Task request) Using a while loop control structure.
+   b. (Extra example) Using a for loop control structure.
+2. Create a loop (any kind) that will display all the even numbers between 1 and 20.
+   a. For loop starts from 2, ends at 20, increments of 2.
+   b. Display all even numbers between 1 and 20.
+3. Output the star pattern shown below:
+   a. *
+   b. **
+   c. ***
+   d. ****
+   e. *****
+End
+
+Task 8.2 Control Structures - For Loop file (vehicles.py)
+11-008-1 Control Structures - For Loops (Tasks from PDF File)
+
+Start
+1. Create an array of named vehicles:
+   a. Populate it with 5 different cars.
+2. Use a For loop to output (Use print not (console.log) this is used in JavaScript):
+   a. Print each car within the vehicles array after the string “I would love to drive a ……” .
+3. Output should read as:
+   a. “ I would love to drive a [nameOfCar] ”
+   b. Repeated 5 times, once for each car in the array.
+End
+"""
