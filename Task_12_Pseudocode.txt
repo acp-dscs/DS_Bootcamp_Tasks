@@ -1,0 +1,21 @@
+"""
+Task 12 Pseudocode File
+Task 12.1 Data Structures - Lists and Dictionaries file (cafe.py)
+
+Start
+Imagine you are running a cafe: 
+1. Create a list called menu.
+   a. Containing at least four items sold in the cafe.
+2. Create a dictionaries, for each of the items on the menu:
+   a. Called Stock: Containing the stock value (representing the number of items in stock).
+   b. Called Price: Containing the prices (in GBP).
+4. Calculate the (total_stock) value in the cafe. item_value = (stock[items] * price[items])
+5. Print out the result of the calculation.
+
+You will need to remember to loop through the appropriate dictionaries and lists to do this.
+
+Tip: When you loop through the menu list,
+   the ‘items’ can be set as keys to access the corresponding ‘stock’ and ‘price’ values.
+   Each ‘item_value’ is calculated by multiplying the stock value by the price value.  
+End
+"""
