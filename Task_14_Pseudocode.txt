@@ -1,0 +1,32 @@
+"""
+Task 14 Pseudocode File
+
+Task 14.1 Programming with User-defined Functions (holiday.py)
+
+This program enables a single traveller or a room and car sharing couple (not a group trip booking system) to generate a quote for a trip to a city.
+They have a choice of 10 City options, number of hotel night stays, number of days they will need a hire car for.
+The user will then be presented with the basic quote for their trip and have the option to build more quotes before exiting the program.
+
+Start
+1. State the Lists for the 10 City options and Number of passengers (1 or 2)
+   a. Program starts: Define the functions for: City, Single or Couple (No. of travellers), Hotel Cost, Plane Cost, Hire Car Cost, Total Trip Quote Cost
+   b. State the variables and store the parameter placeholders (relevant to each def) to call and take in the actual values from the user, who should input a valid option from the list provided.
+   c. Checks included for: Negative value, illogical combination and symbols checks are in place, they will not break the program but the user will likely need to re-run and input valid inputs to get a complete trip quote
+2. Calculate a user’s total holiday cost, including:
+   a. Plane Cost
+   b. Hotel Cost
+   c. Car-Rental Cost
+3. First, get user inputs:
+   a. city_flight: City name, user will fly to. (You can create some options for them)
+         a.i. Remember each city will have different flight costs.
+   b. num_nights: Number of nights user will stay at a hotel.
+   c. rental_days: Number of days for hire car.
+4. Next, create the following four functions:
+   a. hotel_cost: This function will take num_nights as an argument, and return a total cost for the hotel stay (you can choose the price per night charged at the hotel).
+   b. plane_cost: This function will take city_flight as an argument and return a cost for the flight. (Hint: use if/else if statements in the function to retrieve a price based on the chosen city.)
+   c. car_rental: This function will take rental_days as an argument and return the total cost of the car rental (you can choose the daily rental cost.)
+   d. holiday_cost: This function will take the three arguments hotel_cost, plane_cost, car_rental. Using these three arguments, you can call all three of the above functions with respective arguments and finally return a total cost for your holiday.
+5. Print out all the details about the holiday in a readable way.
+6. Run the program with different combinations of inputs showing different quote options.
+End
+"""
