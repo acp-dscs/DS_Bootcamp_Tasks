@@ -1,0 +1,25 @@
+"""
+Task 19 Pseudocode File
+Task 19.1 Natural Language Processing (garden.py)
+
+This program takes in sentences as a specified list and tokenizes each sentence.
+The program then preforms named entity recognition and examines how SpaCy categorises each sentence.
+To conclude comments are made about two entities in answer to the questions below.
+
+Start
+1. Find at least 2 garden path sentences from the web, or think up your own.
+   a. Store the sentences identified or created in a list called gardenpathSentences.
+2. Add the following sentences to your list:
+   a. Mary gave the child a Band-Aid.
+   b. That Jill is never here hurts.
+   c. The cotton clothing is made of grows in Mississippi.
+3. Tokenize each sentence in the list, and perform named entity recognition.
+4. Examine how spaCy has categorised each sentence.
+   a. Use spacy.explain to look up and print the meaning of entities that you don’t understand.
+      e.g. print(spacy.explain("FAC"))
+5. At the bottom of the file, write a comment about two entities that you looked up.
+   a. For each entity answer the following questions:
+      i.    What was the entity and its explanation that you looked up?
+      ii.   Did the entity make sense in terms of the word associated with it?
+End
+"""
